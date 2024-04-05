@@ -1,0 +1,105 @@
+@font-face {
+    font-family: TimesNow;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TimesNOW;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 30px 75px;
+}
+#part1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+#part2{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+#mid h2{
+    font-size: 28px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#mid h1{
+    font-size: 120px;
+    letter-spacing: -6px;
+    word-spacing: 10px;
+    line-height: 115px;
+    position: absolute;
+    top: 37%;
+    left: 4%;
+
+}
+#page2{
+    width: 100%;
+    height: 90%;
+}
+#upper{
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 90px;
+    font-size: 18px;
+}
+#left{
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+#lower{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    
+}
+.elem{
+    width: 35%;
+    height: 85%;
+    background-color: red;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1646500986722-4d733bd905e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.elem2{
+    width: 35%;
+    height: 85%;
+    background-color: red;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1573399054516-90665ecc44be?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
